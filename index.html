@@ -12,37 +12,43 @@
 
 <style>
 
-img.iphonehead {
-  position: absolute;
-  width: 400px;
-  height: 79px;
-  left: 10px;
-  top: 1px; 
-}
+@media only screen and (min-width: 375px) { /* Your Styles... */ }
 
-img.logomain {
+img.splashtop {
   position: absolute;
-  width: 372px;
-  height: 105px;
-  left: 27px;
-  top: 108px;
+width: 379px;
+height: 328px;
+left: 20px;
+top: 0px;
 }
 
 img.backgroundimage {
   position: absolute;
-  width: 414px;
-  height: 534px;
-  left: 0px;
-  top: 219px;
-
+width: 414px;
+height: 353px;
+left: 0px;
+top: 537px;
 }
 
 
-img.footermain {
-  position: absolute;
-width: 414px;
-height: 144px;
-top: 610px;
+.start {
+font-family: Aleo !important;
+color: #515050 !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 20px !important;
+line-height: 22px !important;
+
+position: absolute !important;
+width: 190px !important;
+height: 60px !important;
+left: 111px !important;
+top: 386px !important;
+
+background: #FF9E0D !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 15px !important;
+
 
 }
 
@@ -64,21 +70,16 @@ top: 610px;
 
 <header>
   <div class="top">
-    <img class="iphonehead" src="images/iphonehead.png">
-    <img class="logomain" src="images/logomain.png">
+    <img class="splashtop" src="images/splashtop.png">
   </div>
 
 </header>
 
 <section>
   <div class="main">
-    <img class="backgroundimage" src="images/backgroundimage.png">    
+    <button type="button" class="btn btn-primary btn-lg start">Start Your Dream</button>
+    <img class="backgroundimage" src="images/mainimage.png">    
   </div>    
-
-  <div class="footer">
-    <img class="footermain" src="images/footermain.png">
-  
-  </div>
 
 </section>
 
